@@ -14,6 +14,7 @@ All data comes from the JSON passed by C++.
 
 import sys
 import io
+import os
 
 # Add the python/ directory to the path so we can import sibling modules
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
